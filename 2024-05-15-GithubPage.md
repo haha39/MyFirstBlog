@@ -37,3 +37,5 @@ google 表單
 1. 本地端新建儲存庫
 2. jekyll new .
 3. .....
+
+bundle exec jekyll serve的重要性
