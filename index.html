@@ -9,22 +9,30 @@
 
 <body>
     <h1>Welcome to My Blog</h1>
+    <h2>Categories</h2>
     <ul>
-        <li><a href="2024-05-10-LinearAlgebra">Linear Algebra</a></li>
-        <!-- 在这里添加其他文章的链接 -->
+        {% for category in site.categories %}
+        <li><a href="{{ site.baseurl }}/categories/{{ category[0] }}">{{ category[0] }}</a></li>
+        {% endfor %}
     </ul>
+
+    <h2>Recent Posts</h2>
     <ul>
-        <li><a href="\_posts\2024-05-18">財報狗筆記</a></li>
-        <!-- 在这里添加其他文章的链接 -->
+        {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}</li>
+        {% endfor %}
     </ul>
-    <ul>
-        <li><a href="2024-05-13-MachineLearning">深度學習筆記</a></li>
-        <!-- 在这里添加其他文章的链接 -->
-    </ul>
-    <ul>
-        <li><a href="2024-05-15-GithubPage">靜態網站筆記</a></li>
-        <!-- 在这里添加其他文章的链接 -->
-    </ul>
+
+
+    <h1>Linear Algebra</h1>
+    <h1>財報狗筆記</h1>
+    <h1>深度學習筆記</h1>
+    <h1>靜態網站筆記</h1>
+    <h3>to be continue...</h3>
+    <h1>google format</h1>
+    <h1>超啟發演算法</h1>
+    <h1>資訊科普</h1>
+
 </body>
 
 </html>
