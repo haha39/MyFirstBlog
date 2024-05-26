@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "A simple blog built with Github Page and Jekyll"
+date:   2024-05-24 17:35:06 +0800
+categories: jekyll update
+---
+
 Github Page /w Jekyll
 ===
 # everythin
