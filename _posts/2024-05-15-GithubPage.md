@@ -25,11 +25,20 @@ https://sites.google.com/site/mycprogrammingbook/bu-chong-cai-liao/gccanzhuang
 設定 -> 系統 -> 系統資訊 -> 進階系統設定 -> 進階 -> 環境變數 -> "系統變數"中找Path -> 點選編輯 -> 新增 D:\mingw64\bin -> 一路按確定
 `gcc --version`和`g++ --version`檢查
 * make呢，怎麼要選擇windows版本的 : Complete package, except sources -> C:\Program Files (x86)\GnuWin32 -> 同上 -> `make --version`
+5. 本地端新建repository
+6. jekyll new .
+7. 希望有個基本的架構
+    * _config.yml
+    * \layouts
+    * \categories
+    * markdown前面要加前墜
+    * 還沒完全解決
+    * `bundle exec jekyll serve的重要性!!!!`
+8. 繼續用jekyll的功能讓我們的網站變好看
 
 
-4. 因此，我們要新增一行程式碼 : `theme: jekyll-theme-minimal`來添增主題~~
-5. 西卡西，新問題是，markdown的網頁是變好看了，但主業index.html可是完全沒變化阿，這可怎麼辦??
-
++因此，我們要新增一行程式碼 : `theme: jekyll-theme-minimal`來添增主題~~
++西卡西，新問題是，markdown的網頁是變好看了，但主業index.html可是完全沒變化阿，這可怎麼辦??
 
 
 * 補充 : 要怎麼新增圖片阿?
@@ -38,13 +47,3 @@ https://sites.google.com/site/mycprogrammingbook/bu-chong-cai-liao/gccanzhuang
 
 
 
-
-!!!!!!!!!!!!!!
-google 表單
-
-1. 本地端新建儲存庫
-2. jekyll new .
-3. .....
-4. 架構-chatGPT
-
-bundle exec jekyll serve的重要性
