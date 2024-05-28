@@ -32,6 +32,7 @@ https://sites.google.com/site/mycprogrammingbook/bu-chong-cai-liao/gccanzhuang
     * \layouts
     * \categories
     * markdown前面要加前墜
+    * index.html的連結寫法
     * 還沒完全解決
     * `bundle exec jekyll serve的重要性!!!!`
 8. 繼續用jekyll的功能讓我們的網站變好看
