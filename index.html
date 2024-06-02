@@ -4,24 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <title>Digital Black</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <h1>Welcome to My Blog</h1>
-    <h2>Categories</h2>
-    <ul>
-        {% for category in site.categories %}
-        <li><a href="{{ site.baseurl }}/categories/{{ category[0] }}">{{ category[0] }}</a></li>
-        {% endfor %}
-    </ul>
-
     <h2>Recent Posts</h2>
     <ul>
-        {% for post in site.posts %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}</li>
-        {% endfor %}
+        <li><a href="2024-05-15-GithubPage.md">GitHub Pages</a> - 2024-05-15</li>
+        <li><a href="2024-05-24-welcome">Welcome to Jekyll</a> - 2024-05-24</li>
+        <li><a href="2024-05-10-LinearAlgebra.html">Linear Algebra Baby</a> - 2024-05-10</li>
     </ul>
 
 
