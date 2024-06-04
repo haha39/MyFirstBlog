@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "A simple blog built with Github Page and Jekyll"
+date:   2024-05-24 17:35:06 +0800
+categories: [jekyll update]
+---
+
+Github Page /w Jekyll
+===
+# everythin
+
+
+## Jekyll:
+This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll "DMC") link.
+
+
+1. 在[這篇文章](https://github.blog/changelog/2022-08-22-github-pages-deprecating-the-theme-picker/)可以看到，我們不再能夠直接在github page設定theme picker就好，因此我們得用別的方式添增Jekyll主題
+2. 按照官網，先下載前置作業
+    1. Ruby
+    2. RubyGems
+    3. GCC就麻煩了，
+        * [參考網址1](https://hackmd.io/@ShawnNTU-CS/HJj4EfGhp?utm_source=preview-mode&utm_medium=rec)
+        * [參考網址2](https://sites.google.com/site/mycprogrammingbook/bu-chong-cai-liao/gccanzhuang)
+        * 設定 -> 系統 -> 系統資訊 -> 進階系統設定 -> 進階 -> 環境變數 -> "系統變數"中找Path -> 點選編輯 -> 新增 D:\mingw64\bin -> 一路按確定
+        * 最後，使用`gcc --version`和`g++ --version`檢查是否安裝完成
+    4. make呢，怎麼要選擇windows版本的 : Complete package, except sources -> C:\Program Files (x86)\GnuWin32 -> 同上 -> `make --version`
+3. 用 Github Desktop 新建 repository
+4. 在 repository 中， 呼叫你的終端機，輸入`jekyll new .`
+5. 讓我們來直接看 Jekyll 的官方教學網站吧 :
+    * Liquid 是蝦米
+    * front matter 的重要性 
+    * _config.yml
+    * `bundle exec jekyll serve的重要性!!!!`
+    * [參考網址](https://gist.github.com/abearxiong/8ae3caa6728e26565fec4a146344a065)
+    
+
+
+* 補充 : 要怎麼新增圖片阿?
+* 補充 : github action
+
+
+
+
