@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "A simple blog built with Github Page and Jekyll"
 date:   2024-05-24 17:35:06 +0800
 categories: [jekyll update]
@@ -29,8 +29,9 @@ This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-githu
 5. 讓我們來直接看 Jekyll 的官方教學網站吧 :
     * Liquid 是蝦米
     * front matter 的重要性 
-    * _config.yml
-    * `bundle exec jekyll serve的重要性!!!!`
+    * Creating a layout，來，見鬼了，沒有 font matter 而且那個 {{content}} 又是啥阿，那是一個模板，建立完後，其他網站只要輸入 `layout: default`，就可以套用 default 的布局
+    * _config.yml 中，將 baseurl 和 url 改成我們的 Github 網址
+    * `bundle exec jekyll serve的重要性!!!!`，人家是即時變動的喔，當然要 reload 你的網頁
     * [參考網址](https://gist.github.com/abearxiong/8ae3caa6728e26565fec4a146344a065)
     
 
