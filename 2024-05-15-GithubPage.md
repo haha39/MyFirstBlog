@@ -19,8 +19,8 @@ This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-githu
     1. Ruby
     2. RubyGems
     3. GCC就麻煩了，
-        * [參考網址1](https://hackmd.io/@ShawnNTU-CS/HJj4EfGhp?utm_source=preview-mode&utm_medium=rec)
-        * [參考網址2](https://sites.google.com/site/mycprogrammingbook/bu-chong-cai-liao/gccanzhuang)
+        * 來看看這些[參考網址1](https://hackmd.io/@ShawnNTU-CS/HJj4EfGhp?utm_source=preview-mode&utm_medium=rec)吧
+        * 來看看這些[參考網址2](https://sites.google.com/site/mycprogrammingbook/bu-chong-cai-liao/gccanzhuang)吧
         * 設定 -> 系統 -> 系統資訊 -> 進階系統設定 -> 進階 -> 環境變數 -> "系統變數"中找Path -> 點選編輯 -> 新增 D:\mingw64\bin -> 一路按確定
         * 最後，使用`gcc --version`和`g++ --version`檢查是否安裝完成
     4. make呢，怎麼要選擇windows版本的 : Complete package, except sources -> C:\Program Files (x86)\GnuWin32 -> 同上 -> `make --version`
@@ -31,8 +31,8 @@ This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-githu
     * front matter 的重要性 
     * Creating a layout，來，見鬼了，沒有 font matter 而且那個 {{content}} 又是啥阿，那是一個模板，建立完後，其他網站只要輸入 `layout: default`，就可以套用 default 的布局
     * _config.yml 中，將 baseurl 和 url 改成我們的 Github 網址
-    * `bundle exec jekyll serve的重要性!!!!`，人家是即時變動的喔，當然要 reload 你的網頁
-    * [參考網址](https://gist.github.com/abearxiong/8ae3caa6728e26565fec4a146344a065)
+    * `bundle exec jekyll serve的重要性!!!!`，人家是即時變動的喔，當然，變更完要 reload 你的網頁
+    * 來看看這些[參考網址](https://gist.github.com/abearxiong/8ae3caa6728e26565fec4a146344a065)吧
     
 
 
