@@ -31,10 +31,10 @@ This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-githu
     * _config.yml 中，將 baseurl 和 url 改成我們的 Github 網址
     * Liquid 是蝦米
     * front matter 的重要性 
-    * Creating a layout，來，見鬼了，沒有 font matter 而且那個 {{content}} 又是啥阿，那是一個模板，建立完後，其他網站只要輸入 `layout: default`，就可以套用 default 的布局，有點像LAB的感覺
-    * 
+    * Creating a layout，來，見鬼了，沒有 font matter 而且那個 `content` 又是啥阿，那是一個模板，建立完後，其他網站只要輸入 `layout: default`，就可以套用 default 的布局，有點像LAB的感覺
+    * there’s no way to navigate between pages. Let’s fix that. => THE MIGHTY Includes -> 要開始建立網頁(page)與網頁之間的導向(導航)了，這邊要特別記住的點是，因為我們有多`/MyFirstBlog/`這個子連結，所以在`_includes/navigation.html`中建立連結的時候要多加注意，才不會導覽錯方向開錯路，點開來只會有404等著你。
 
-    * 來看看這些[參考網址](https://gist.github.com/abearxiong/8ae3caa6728e26565fec4a146344a065)吧
+    * 來看看這些[參考網址3](https://gist.github.com/abearxiong/8ae3caa6728e26565fec4a146344a065)吧
     
 
 
