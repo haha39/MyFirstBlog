@@ -25,7 +25,7 @@ This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-githu
         * 最後，使用`gcc --version`和`g++ --version`檢查是否安裝完成
     4. make呢，怎麼要選擇windows版本的 : Complete package, except sources -> C:\Program Files (x86)\GnuWin32 -> 同上 -> `make --version`
 3. 用 Github Desktop 新建 repository
-4. 在 repository 中， 呼叫你的終端機，輸入`jekyll new .`
+4. 在 repository 中， 呼叫你的終端機，輸入`jekyll new .`，把檔案全改成`.md`就對了
 5. 讓我們來直接看 Jekyll 的官方教學網站吧 :
     * `bundle exec jekyll serve的重要性!!!!`，人家是即時變動的喔，當然，變更完要 reload 你的網頁
     * _config.yml 中，將 baseurl 和 url 改成我們的 Github 網址
@@ -33,12 +33,16 @@ This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-githu
     * front matter 的重要性 
     * Creating a layout，來，見鬼了，沒有 font matter 而且那個 `content` 又是啥阿，那是一個模板，建立完後，其他網站只要輸入 `layout: default`，就可以套用 default 的布局，有點像LAB的感覺
     * there’s no way to navigate between pages. Let’s fix that. => THE MIGHTY Includes -> 要開始建立網頁(page)與網頁之間的導向(導航)了，這邊要特別記住的點是，因為我們有多`/MyFirstBlog/`這個子連結，所以在`_includes/navigation.html`中建立連結的時候要多加注意，才不會導覽錯方向開錯路，點開來只會有404等著你。
+    * 但如果你的文章逐漸多了起來，你開始想要一個迴圈來幫忙了 -> Data files are a great way to separate content from source code to make the site easier to maintain. -> available to you at site.data.navigation -> 
+    * 是說，導航的時候，markdown檔案不需要`.md`喔，貼完相對路徑記得把`.md`刪除掉
+    * 來吧，我們心心念念的嵌入圖片，總算來到我們的assets章節 -> 
 
     * 來看看這些[參考網址3](https://gist.github.com/abearxiong/8ae3caa6728e26565fec4a146344a065)吧
+    * 來看看這些[參考網址4](https://jekyllrb.com/docs/step-by-step/01-setup/)吧
+
     
 
 
-* 補充 : 要怎麼新增圖片阿?
 * 補充 : github action
 
 
