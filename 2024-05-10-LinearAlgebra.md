@@ -1,15 +1,23 @@
 ---
 layout: default
-title:  "I'm Gaiaaaaaa"
-date:   2024-05-24 17:35:06 +0800
+title: "I'm Gaiaaaaaa"
+date: 2024-05-24 17:35:06 +0800
 categories: [jekyll update]
 ---
 
-Linear Algebra
-===
+# Linear Algebra
+
 ## hello world
+
 希望能稍微用我自己的話去解釋 :
+
 1. 為什麼得是線性?
 2. 和代數的關聯是...
 3. 和程式語言之間的關聯是...
 4. 矩陣的美妙是...
+
+## 新回答
+
+- input 與 output 的對應關係
+- 一個矩陣一個功能，就像一個函數只該做好一件事(不該肥大臃腫)
+- 大道至簡，以核心理論來說的話，線性代數就是為了服務向量，而程式語言就是為了服務資訊，更精確地說，方法就是為了服務物件
