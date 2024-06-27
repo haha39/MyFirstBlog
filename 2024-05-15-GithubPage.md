@@ -35,7 +35,8 @@ This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-githu
    - there’s no way to navigate between pages. Let’s fix that. => THE MIGHTY Includes -> 要開始建立網頁(page)與網頁之間的導向(導航)了，這邊要特別記住的點是，因為我們有多`/MyFirstBlog/`這個子連結，所以在`_includes/navigation.html`中建立連結的時候要多加注意，才不會導覽錯方向開錯路，點開來只會有 404 等著你。
    - 但如果你的文章逐漸多了起來，你開始想要一個迴圈來幫忙了 -> Data files are a great way to separate content from source code to make the site easier to maintain. -> available to you at site.data.navigation ->
    - 是說，導航的時候，markdown 檔案不需要`.md`喔，貼完相對路徑記得把`.md`刪除掉
-   - 來吧，我們心心念念的嵌入圖片，總算來到我們的 assets 章節 -> Sass 來也 -> 挖哩，遇到問題了，`styles.scss`總是會坍縮到一行，目前下載*Prettier - Code formatter*讓他不被格式化
+   - 來吧，我們心心念念的嵌入圖片，總算來到我們的 assets 章節 -> Sass 來也 -> 挖哩，遇到問題了，`styles.scss`總是會坍縮到一行，目前下載*Prettier - Code formatter*讓他不被格式化，可惜了，先跳掉吧。
+   * 再來，總算來到了我們的部落格主題!!
 
    - 來看看這些[參考網址 3](https://gist.github.com/abearxiong/8ae3caa6728e26565fec4a146344a065)吧
    - 來看看這些[參考網址 4](https://jekyllrb.com/docs/step-by-step/01-setup/)吧
