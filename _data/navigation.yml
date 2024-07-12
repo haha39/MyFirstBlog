@@ -8,3 +8,5 @@
   link: /MyFirstBlog/2024-05-10-LinearAlgebra
 - name: A simple blog built with Github Page and Jekyll
   link: /MyFirstBlog/2024-05-15-GithubPage
+- name: Staff
+  link: /MyFirstBlog/staff.html
