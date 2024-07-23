@@ -36,7 +36,7 @@ This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-githu
    - 但如果你的文章逐漸多了起來，你開始想要一個迴圈來幫忙了 -> Data files are a great way to separate content from source code to make the site easier to maintain. -> available to you at site.data.navigation ->
    - 是說，導航的時候，markdown 檔案不需要`.md`喔，貼完相對路徑記得把`.md`刪除掉
    - 來吧，我們心心念念的嵌入圖片，總算來到我們的 assets 章節 -> Sass 來也 -> 挖哩，遇到問題了，`styles.scss`總是會坍縮到一行，目前下載*Prettier - Code formatter*讓他不被格式化，可惜了，先跳掉吧。
-   * 再來，總算來到了我們的部落格主題!! 原來除了front matter外，我們上次還缺了navigation.html的協助ㄚ
+   * 再來，總算來到了我們的部落格主題!! 原來除了front matter外，我們上次還缺了navigation.html的協助ㄚ。不過目前好像有哪裡怪怪的，沒看到水果系列的文章阿(在_posts中那幾篇)
    * Collections -- You can achieve this by using front matter defaults in `_config.yml`
 
 
