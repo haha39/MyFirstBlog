@@ -37,8 +37,8 @@ This is [an Jekyll tutorial](https://docs.github.com/en/pages/setting-up-a-githu
    - 是說，導航的時候，markdown 檔案不需要`.md`喔，貼完相對路徑記得把`.md`刪除掉
    - 來吧，我們心心念念的嵌入圖片，總算來到我們的 assets 章節 -> Sass 來也 -> 挖哩，遇到問題了，`styles.scss`總是會坍縮到一行，目前下載*Prettier - Code formatter*讓他不被格式化，可惜了，先跳掉吧。
    * 再來，總算來到了我們的部落格主題!! 原來除了front matter外，我們上次還缺了navigation.html的協助ㄚ。不過目前好像有哪裡怪怪的，沒看到水果系列的文章阿(在_posts中那幾篇)
-   * Collections -- You can achieve this by using front matter defaults in `_config.yml`。這篇新增的這些，很大機率會砍掉，不太需要更新作者，學一下他們的做法就好
-   * 最後一章(10)，
+   * Collections -- You can achieve this by using front matter defaults in `_config.yml`。這篇新增的這些，很大機率會砍掉，不太需要更新作者，學一下他們的做法就好。此外，`author.html`或是`post.html`的`<li></li>`都沒有很好的縮行欸，不知道會不會有影響。
+   * 最後一章(10) - Deployment : 
 
 
    - 來看看這些[參考網址 3](https://gist.github.com/abearxiong/8ae3caa6728e26565fec4a146344a065)吧
